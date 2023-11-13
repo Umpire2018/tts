@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "temp"
+version = "0.1.0"
+description = ""
+authors = ["Umpire2018 <arno.edwards@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-cognitiveservices-speech = "^1.32.1"
+dynaconf = "^3.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
